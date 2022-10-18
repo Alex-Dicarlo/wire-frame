@@ -1,0 +1,34 @@
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(216, 212, 206);
+    color: white;
+    text-align: center;
+    border-top: 1px solid black;
+}
+
+.footer-list-container {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  padding-inline-start: 0px;
+  padding-bottom: 20px;
+}
+
+.footer-list-container li {
+  text-decoration: none;
+  list-style: none;
+  padding: 5px;
+  font-size: 18px;
+  color: black;
+}
+
+
+.footer-list-container li:nth-child(2)::before {
+  content: " | ";
+}
+
+.footer-list-container li:nth-child(2)::after {
+  content: " | ";
+}

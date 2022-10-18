@@ -1,0 +1,35 @@
+.delivery-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.card {
+  margin: 20px;
+  width: 220px;
+  height: 60px;
+  border: 1px solid black;
+  text-align: center;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;;
+
+}
+
+@media (max-width: 875px) {
+  .delivery-banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .delivery-banner {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .card {
+    margin-bottom: 2px;
+  }
+}
