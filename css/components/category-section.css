@@ -19,6 +19,22 @@
   margin-right: 50px;
 }
 
+.category-list-block {
+  display: block;
+}
+
+.category-list-block {
+  list-style: none;
+  text-decoration: none;
+  margin-block-start: 0px;
+}
+
+.category-list-block li {
+  list-style: none;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
 .category-list li {
   list-style: none;
   padding: 8px;
@@ -34,9 +50,6 @@
   color: rgb(0, 0, 0);
 }
 
-/* .category li a:hover {
-  color: white;
-} */
 
 .category li a:hover {
   background-color:rgb(216, 212, 206);
@@ -52,15 +65,8 @@
 @media (max-width: 950px) {
   .category-list {
     display: none;
-  }
-  /* .category-button {
-    margin-top: 10px;
-    display: flex;
-    flex: 1;
-    margin-left: 65px;
-    justify-content: flex-start;
 
-  } */
+  }
 }
 
 @media (max-width: 500px) {
