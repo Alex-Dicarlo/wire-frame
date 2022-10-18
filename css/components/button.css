@@ -1,0 +1,15 @@
+.btn-sale {
+  padding: 10px 18px;
+  background-color: rgba(22, 155, 213, 1);
+  color: white;
+  border-radius: 5px;
+  border: none;
+
+}
+
+.btn-sale:hover {
+  color: rgba(22, 155, 213, 1);
+  background-color: white;
+  border: 1px solid rgba(22, 155, 213, 1);
+
+}

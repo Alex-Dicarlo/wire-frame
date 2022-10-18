@@ -5,6 +5,7 @@
 @import url('components/deal-section.css');
 @import url('components/general-section.css');
 @import url('components/footer.css');
+@import url('components/button.css');
 
 body {
   margin: 0 auto;
