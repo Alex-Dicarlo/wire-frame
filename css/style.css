@@ -12,3 +12,12 @@ body {
   padding: 0;
   height: 100%;
 }
+
+a {
+  font-family: 'Abel', sans-serif;
+}
+
+li {
+  font-family: 'Abel', sans-serif;
+  font-size: 15px;
+}
