@@ -62,7 +62,7 @@
 }
 
 .text {
-  margin: 15px
+  margin: 5px 15px;
 }
 
 .text p {
@@ -83,16 +83,19 @@
  }
 }
 
-@media (max-width: 520px){
+@media (max-width: 521px){
   .second-section-item {
     flex-direction: column-reverse;
   }
   .main-item {
-    width: 337.28px;
+    width: 312.77px;
     height: 545.44px;
   }
   .main-item img {
     width: 100%;
     height: 300px;
+  }
+  .text {
+    margin-bottom: 20px;
   }
 }
